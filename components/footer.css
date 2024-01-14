@@ -1,0 +1,21 @@
+#footer {
+  position: absolute;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 56px;
+  height: 56px;
+  bottom: 1em;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+svg.github {
+  display: inline-block;
+  vertical-align: middle;
+}
+
+svg.github:hover {
+  transform: scale(1.2);
+  transition-duration: 0.6s;
+}
